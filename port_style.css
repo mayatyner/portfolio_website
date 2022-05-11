@@ -1,0 +1,166 @@
+h1, h2, h3, li, a {
+  font-family: verdana;
+}
+
+body, html {
+  margin: 0;
+  background-color: #FFFFEC;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  border-radius: 5px;
+}
+
+p, li {
+  font-size: 24px;
+  font-family: Tahoma;
+}
+
+#welcome {
+  border: 2px solid #F0789A;
+  text-align: center;
+}
+
+.pink {
+  font-size: 36px;
+  text-align: center;  
+  background-color: #F0789A;
+  padding: 3%;
+  margin: 0 30%;
+  margin-top: 5%;
+  color: #FFFFEC;
+}
+
+.lime {
+  margin-bottom: 10%;
+  text-align: center;
+  background-color: #80CF59;
+  padding: 1%;
+  margin: 0 40%;
+  color: #FFFFEC;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+nav {
+  background-color: #F0789A;
+  padding: 1%;
+  display: flex;
+  border-radius: 0px;
+  top: 0px;
+}
+
+nav > h1 {
+  color: #FFFFEC;
+  flex: 10;
+}
+
+nav > a {
+  border:2px solid #FFFFEC;
+  color: #FFFFEC;
+  text-decoration: none;
+  text-align: center;
+  padding: 1% 2%;
+  font-size: 24px;
+  flex: 1;
+  margin: 5px;
+}
+
+a:hover {
+  color: #80CF59;
+  border:2px solid #80CF59;
+}
+
+
+#welcome {
+  text-align: center;
+  color: #210002;
+  margin: 5% 15%;
+}
+
+#techskills {
+  display: flex;
+}
+
+#lang, #prog {
+  flex: 1;
+  padding-left: 3%;
+  margin: 2% 0%;
+  font-size: 20px;
+  color: #FFFFEC;
+  background-color: #4FBD88;
+  margin-bottom: 1%;
+}
+
+#lang {
+  margin-left: 25%;
+  margin-right: 2%;
+}
+
+#prog {
+  margin-right: 25%;
+  margin-left: 2%;
+}
+
+article {
+  padding: 1%;
+  color: #FFFFEC;
+  margin: 20px;
+}
+
+article.site {
+  background-color: #4FBD88;
+  background-image: url("webpageClipArt.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+  box-sizing: border-box;
+}
+
+article > a {
+  border: 3px solid #FFFFEC;
+  font-size: 33px;
+  width: 50%;
+  padding: 0.5%;
+  color: #FFFFEC;
+  text-decoration: none;
+}
+
+article > p {
+  width: 70%;
+  color: #FFFFEC;
+}
+
+#positions > h3 {
+  background-color: #4FBD88;
+  color: #FFFFEC;
+  padding: 1%;
+  margin: 2%;
+  margin-left: 20%;
+  margin-right: 25%;
+}
+
+#positions > p {
+  background-color: #80CF59;
+  color: #FFFFEC;
+  padding: 1%;
+  margin: 1%;
+  margin-left: 30%;
+  margin-right: 15%;
+}
+
+#code {
+  margin: 5% 24%;
+}

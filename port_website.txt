@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="port_style.css">
+<title>Maya Tyner- Projects</title>
+
+<!--Meta Data: DOES NOT NEED EDITED-->
+<met charset="UTF-8">
+<meta name="keywords" content="computer science, technology, portfolio, intern, university of utah, uofu, slc">
+<meta name="description> content="Portfolio for Maya Tyner. Current student at the University of Utah, studying 
+Computer Science. Specializes in front-end development.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+<nav>
+	<h1>Projects</h1>
+	<a href="port_home.html">Home</a>
+	<a href="port_projects.html">Projects</a>
+	<a href="port_contact.html">Contact</a>
+</nav>
+
+<h1>Website Project</h1>
+<p><strong>Timeline: </strong>April 2022-Ongoing</p>
+<p><strong>Languages: </strong>HTML, CSS, JavaScript</p>
+<p><strong>Programs: </strong>NotePad</p>
+
+
+<p class="lime">While I have many projects I've worked on, this project is by far the most thorough and earliest project I've completed. This site was developed while working at a call center in Salt Lake City, after receiving permission
+from my supervisor. Since I was using a workplace computer, I settled for using NotePad to develop this website. NotePad also provided the opportunity to fully immerse myself in HTML, CSS, and JavaScript since I had no assistance
+ from autofill tools or debuggers.</p>
+
+<p class="lime">Throughout the development of this website, outside of learning the aforementioned languages, I learned that website development, from scratch, is incredibly meticulous work. It requires keen attention to details and 
+a strong understanding of wrappers, despite a lack of classes. In the case of HTML, "classes" are already developed. It's up to the programmer to utilize these classes properly to create a desired look. An excellent example 
+of this is the homepages "Work Experience" section:</p>
+
+<h3 class="pink">
+
+
+</body>
+
+
+</html>
