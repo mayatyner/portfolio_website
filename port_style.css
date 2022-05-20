@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&family=Montserrat&display=swap');
+
 h1, h2, h3, li, a {
-  font-family: verdana;
+  font-family: 'Baloo Da 2', verdana;
 }
 
 body, html {
   margin: 0;
   background-color: #FFFFEC;
-  padding: 0;
+  padding: 0vw;
   width: 100%;
 }
 
 * {
-  border-radius: 5px;
+  border-radius: 1.5vw;
 }
 
 p, li {
-  font-size: 24px;
-  font-family: Tahoma;
+  font-size: calc(14px + 1.1vw);
+  font-family: 'Montserrat', Tahoma;
 }
 
 #welcome {
@@ -23,144 +25,175 @@ p, li {
   text-align: center;
 }
 
+
 .pink {
-  font-size: 36px;
+  font-size: calc(30px + 1.0vw);
   text-align: center;  
   background-color: #F0789A;
-  padding: 3%;
-  margin: 0 30%;
-  margin-top: 5%;
+  padding: 2vw;
+  margin: 3vw 9vw;
+  margin-top: 6vw;
   color: #FFFFEC;
+  box-shadow: 1vw 1vw #f5c4d7;
 }
 
 .lime {
-  margin-bottom: 10%;
+  margin-bottom: 3vw;
   text-align: center;
   background-color: #80CF59;
-  padding: 1%;
-  margin: 0 40%;
+  padding: 2vw;
+  margin: 0 20vw;
   color: #FFFFEC;
+  box-shadow: 1vw 1vw #dbf0a8;
 }
 
 h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 33px;
+  font-size: calc(10px + 1.5vw);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: calc(16px + 0.9vw);
 }
 
 nav {
   background-color: #F0789A;
-  padding: 1%;
-  display: flex;
-  border-radius: 0px;
+  border-radius: 0;
   top: 0px;
+  display: flex;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin-right: 1vw;
+  margin-top: 2vw;
 }
 
 nav > h1 {
   color: #FFFFEC;
-  flex: 10;
+  flex: 9;
+  margin-left: 3vw;
 }
 
-nav > a {
-  border:2px solid #FFFFEC;
-  color: #FFFFEC;
+nav > ul > li {
+  flex: 1;
+  display: inline;
+  border: 3px solid #FFFFEC;
+  padding: 1vw 2vw;
+  font-size: calc(12px + 1.0vw);
+  margin-right: 0.5vw;
+  vertical-align: middle;
+}
+
+nav > ul > li > a {
   text-decoration: none;
   text-align: center;
-  padding: 1% 2%;
-  font-size: 24px;
-  flex: 1;
-  margin: 5px;
+  color: #FFFFEC;
+  vertical-align: middle;
 }
-
-a:hover {
-  color: #80CF59;
-  border:2px solid #80CF59;
-}
-
 
 #welcome {
   text-align: center;
   color: #210002;
-  margin: 5% 15%;
+  margin: 5vw 5vw;
+  padding: 1vw;
 }
 
 #techskills {
   display: flex;
+  margin-bottom: 2vw;
 }
 
 #lang, #prog {
   flex: 1;
-  padding-left: 3%;
-  margin: 2% 0%;
-  font-size: 20px;
+  padding-left: 2vw;
+  margin: 2vw 0;
+  font-size: calc(12px + 1.1vw);
   color: #FFFFEC;
   background-color: #4FBD88;
-  margin-bottom: 1%;
+  margin-bottom: 2.5vw;
+  box-shadow: 1vw 1vw #91edac;
 }
 
 #lang {
-  margin-left: 25%;
-  margin-right: 2%;
+  margin-left: 10vw;
+  margin-right: 5vw;
 }
 
 #prog {
-  margin-right: 25%;
-  margin-left: 2%;
+  margin-right: 10vw;
+  margin-left: 5vw;
 }
 
 article {
-  padding: 1%;
+  padding: 1.5vw;
   color: #FFFFEC;
-  margin: 20px;
 }
 
-article.site {
+article.original {
   background-color: #4FBD88;
-  background-image: url("webpageClipArt.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: scroll;
-  box-sizing: border-box;
+  margin: 3vw;
+  box-shadow: 1vw 1vw #91edac;
+}
+
+article.alternate {
+  background-color: #80CF59;
+  margin: 3vw;
+  box-shadow: 1vw 1vw #dbf0a8;
 }
 
 article > a {
   border: 3px solid #FFFFEC;
-  font-size: 33px;
-  width: 50%;
-  padding: 0.5%;
+  font-size: calc(20px + 1.0vw);
+  padding: 0.8vw;
   color: #FFFFEC;
   text-decoration: none;
+  line-height: 2;
 }
 
 article > p {
-  width: 70%;
   color: #FFFFEC;
 }
 
 #positions > h3 {
   background-color: #4FBD88;
   color: #FFFFEC;
-  padding: 1%;
-  margin: 2%;
-  margin-left: 20%;
-  margin-right: 25%;
+  padding: 1.3vw;
+  margin: 2vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  box-shadow: 1vw 1vw #91edac;
 }
 
 #positions > p {
   background-color: #80CF59;
   color: #FFFFEC;
-  padding: 1%;
-  margin: 1%;
-  margin-left: 30%;
-  margin-right: 15%;
+  padding: 1.3vw;
+  margin: 2vw;
+  margin-left: 20vw;
+  margin-right: 10vw;
+  box-shadow: 1vw 1vw #dbf0a8;
 }
 
 #code {
-  margin: 5% 24%;
+  margin: 4vw 24vw;
+}
+
+#projinfo {
+  margin: 3vw;
+}
+
+#title {
+  background-color: #4FBD88;
+  color: #FFFFEC;
+  padding: 1vw;
+  padding-left: 2.5vw;
+  margin: 1.5vw;
+  width: 50vw;
+  box-shadow: 1vw 1vw #91edac;
+}
+
+#contact > h3{
+  padding: 1vw;
+  margin: 4vw 20vw;
 }

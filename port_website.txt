@@ -12,33 +12,98 @@ Computer Science. Specializes in front-end development.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<nav>
+	<h1>Projects</h1>
+	<ul>
+		<li><a href="port_home.html">Home</a></li>
+		<li><a href="port_projects.html">Projects</a></li>
+		<li><a href="port_contact.html">Contact</a></li>
+	</ul>
+</nav>
 
 <body>
 
-<nav>
-	<h1>Projects</h1>
-	<a href="port_home.html">Home</a>
-	<a href="port_projects.html">Projects</a>
-	<a href="port_contact.html">Contact</a>
-</nav>
+<div id="title">
+	<p><strong>Timeline: </strong>April 2022-Ongoing</p>
+	<p><strong>Languages: </strong>HTML, CSS, JavaScript</p>
+	<p><strong>Programs: </strong>NotePad</p>
+</div>
 
-<h1>Website Project</h1>
-<p><strong>Timeline: </strong>April 2022-Ongoing</p>
-<p><strong>Languages: </strong>HTML, CSS, JavaScript</p>
-<p><strong>Programs: </strong>NotePad</p>
+<div id="projinfo">
 
-
-<p class="lime">While I have many projects I've worked on, this project is by far the most thorough and earliest project I've completed. This site was developed while working at a call center in Salt Lake City, after receiving permission
+	<p>While I have many projects I've worked on, this project is by far the most thorough and earliest project I've completed. This site was developed while working at a call center in Salt Lake City, after receiving permission
 from my supervisor. Since I was using a workplace computer, I settled for using NotePad to develop this website. NotePad also provided the opportunity to fully immerse myself in HTML, CSS, and JavaScript since I had no assistance
  from autofill tools or debuggers.</p>
 
-<p class="lime">Throughout the development of this website, outside of learning the aforementioned languages, I learned that website development, from scratch, is incredibly meticulous work. It requires keen attention to details and 
-a strong understanding of wrappers, despite a lack of classes. In the case of HTML, "classes" are already developed. It's up to the programmer to utilize these classes properly to create a desired look. An excellent example 
+	<h3 class="pink">Programming Experience</h3>
+
+	<p>In highschool, I had worked on a few websites for classes and National Honor Society. 
+While HTML and CSS are not new languages for me, JavaScript is, and my experience with HTML and CSS were
+limited to very barebones websites. </p>
+
+	<p>Throughout the development of this website, outside of learning the aforementioned languages, I learned that website development, from scratch, is incredibly meticulous work. It requires keen attention to details and 
+a strong understanding of wrappers. In the case of HTML, "classes" are already developed. It's up to 
+the programmer to utilize classes properly to create a desired look. An excellent example 
 of this is the homepages "Work Experience" section:</p>
 
-<h3 class="pink">
+	<div id=code>
+		<iframe src="port_home.txt" width="1000" height="800" frameBorder="1"></iframe>
+	</div>
+
+	<p>The above code contains a div labeled "work". This work class then contains a header with the class "pink".
+In my CSS code, "pink" denotes text that needs to be placed inside a pink block. Also inside of "work",
+ there is the div "positions", which lists each position and a description. Since these segments of code 
+are already inside of "positions", they require no further description. Instead, they are referenced in
+ the CSS as "#positions > p" and "#positions > h3".</p>
+
+	<p>There are numerous examples of this throughout the entire website, but this is one of the simpler examples.</p>
+	
+	<h3 class="pink">Design and Development</h3>
+
+	<p>I went into this project fairly blind regarding what my end-product would look like. I 
+visited other student portfolios from other schools and cherry-picked details that I liked or disliked.
+Most notably, I noticed a lack of readability in other websites. Using Adobe Color, I created a color
+ palette that both appealed to me, and was readable. I also wanted a large, sans-serif font, since serif fonts tend to be more difficult
+to read on smaller screens. Outside of these key factors, I wanted a website with a straightforward
+design that reflected my personality, without detracting from the projects hosted on this site.</p>
+
+	<p>Most importantly, this website was designed with the intent to reflect my strength in website
+development languages.</p>
+
+	<p>As stated above, it was very important for this website to be scalable to all, if not, most
+ devices. A majority of people use their cellphones on a day-by-day basis, and I wanted to accomodate
+ that need.</p>
+
+	<h3 class="pink">Hosting</h3>
+
+	<p>Since hosting with my own system requires never shutting the device off and
+using high amounts of electricity, I decided to host my website through BlueHost. I opted for BlueHost
+ because of their security benefits and affordability. In their File Manager, I uploaded my source code.
+Strangely enough, when I uploaded my code to BlueHost, it created two websites: a blank WordPress site
+and my fully developed website. I'm not sure how this happened, but I've reached out to BlueHost to resolve this.
+For now, I have implemented a 301 redirection to ensure people get to the correct website. </p>
+
+	<p>When it comes to hosting websites, I have very little experience, which is why, come Fall 2022,
+I am taking a Web Development course to hopefully get a better understanding of hosting.</p>
+
+	<h3 class="pink">Next Steps</h3>
+
+	<p>Unlike other projects on this site, a website it always changing and will always be improving.
+Moving forward, I want my website to have the following features:</p>
+	<ul>
+		<li>Animations In Page Changes</li>
+		<li>Polish Hyperlinks</li>
+		<li>Scaling Fonts</li>
+		<li>Implement External Fonts (i.e. Google Fonts) </li>
+	</ul>
+
+	<h3 class="pink">Files</h3>
+
+	<p>This project has a public github with all source code released. Please click <a href="https://github.com/mayatyner/portfolio_website/releases">
+here</a> to view the source code.</p>
 
 
+</div>
 </body>
 
 

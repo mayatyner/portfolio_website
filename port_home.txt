@@ -10,16 +10,16 @@
 Computer Science. Specializes in front-end development.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
-
-<body>
-
 <nav>
 	<h1>Maya Tyner</h1>
-	<a href="port_home.html">Home</a>
-	<a href="port_projects.html">Projects</a>
-	<a href="port_contact.html">Contact</a>
+	<ul>
+		<li><a href="port_home.html">Home</a></li>
+		<li><a href="port_projects.html">Projects</a></li>
+		<li><a href="port_contact.html">Contact</a></li>
+	</ul>
 </nav>
+
+<body>
 
 <div id="welcome">
 	<p class="clear">Welcome to my portfolio site! My name is Maya Tyner. I'm a junior at the University of Utah in Salt Lake City,
@@ -48,8 +48,8 @@ Computer Science. Specializes in front-end development.">
 			<li>Jira</li>
 		</ul>
 	</div>
-	<p class="lime">I am fluent in both Linux and Windows OS.</p>
 </div>
+<p class="lime">I am fluent in both Linux and Windows OS.</p>
 
 <div id="work">
 	<h2 class="pink">Work Experience</h2>
