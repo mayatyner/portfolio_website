@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@600&family=Montserrat&display=swap');
 
+@keyframes nav {
+  0% { color: #F0789A; };
+  100% {};
+}
+
+@keyframes textFade {
+  0% { background-color: #FFFFEC; color: #FFFFEC; };
+  100% {};
+}
+
+@keyframes shadowGrow {
+  0% { box-shadow: 0 0; };
+  100% {};
+}
+
 h1, h2, h3, li, a {
   font-family: 'Baloo Da 2', verdana;
 }
@@ -13,18 +28,13 @@ body, html {
 
 * {
   border-radius: 1.5vw;
+  position: relative;
 }
 
 p, li {
   font-size: calc(14px + 1.1vw);
   font-family: 'Montserrat', Tahoma;
 }
-
-#welcome {
-  border: 2px solid #F0789A;
-  text-align: center;
-}
-
 
 .pink {
   font-size: calc(30px + 1.0vw);
@@ -34,7 +44,9 @@ p, li {
   margin: 3vw 9vw;
   margin-top: 6vw;
   color: #FFFFEC;
-  box-shadow: 1vw 1vw #f5c4d7;
+  box-shadow: 1.5vw 1.5vw #f5c4d7;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 .lime {
@@ -44,7 +56,9 @@ p, li {
   padding: 2vw;
   margin: 0 20vw;
   color: #FFFFEC;
-  box-shadow: 1vw 1vw #dbf0a8;
+  box-shadow: 1.5vw 1.5vw #dbf0a8;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 h1 {
@@ -73,30 +87,44 @@ nav > h1 {
   color: #FFFFEC;
   flex: 9;
   margin-left: 3vw;
+  animation-name: nav;
+  animation-duration: 2.5s;
 }
 
 nav > ul > li {
   flex: 1;
   display: inline;
-  border: 3px solid #FFFFEC;
-  padding: 1vw 2vw;
   font-size: calc(12px + 1.0vw);
   margin-right: 0.5vw;
   vertical-align: middle;
+  animation-name: nav;
+  animation-duration: 1.5s;
 }
 
 nav > ul > li > a {
   text-decoration: none;
+  border: 3px solid #FFFFEC;
+  padding: 1vw 2vw;
   text-align: center;
   color: #FFFFEC;
   vertical-align: middle;
+  animation-name: nav;
+  animation-duration: 1.5s;
+}
+
+nav > ul > li > a:hover {
+  color: #f5c4d7;
+  border: 3px solid #f5c4d7;
 }
 
 #welcome {
   text-align: center;
+  border: 2px solid #F0789A;
   color: #210002;
   margin: 5vw 5vw;
   padding: 1vw;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 #techskills {
@@ -112,7 +140,9 @@ nav > ul > li > a {
   color: #FFFFEC;
   background-color: #4FBD88;
   margin-bottom: 2.5vw;
-  box-shadow: 1vw 1vw #91edac;
+  box-shadow: 1.5vw 1.5vw #91edac;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 #lang {
@@ -133,13 +163,27 @@ article {
 article.original {
   background-color: #4FBD88;
   margin: 3vw;
-  box-shadow: 1vw 1vw #91edac;
+  box-shadow: 1.5vw 1.5vw #91edac;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
+}
+
+article.original > a:hover {
+  color: #91edac;
+  border: 3px solid #91edac;
+}
+
+article.alternate > a:hover {
+  color: #dbf0a8;
+  border: 3px solid #dbf0a8;
 }
 
 article.alternate {
   background-color: #80CF59;
   margin: 3vw;
-  box-shadow: 1vw 1vw #dbf0a8;
+  box-shadow: 1.5vw 1.5vw #dbf0a8;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 article > a {
@@ -162,7 +206,9 @@ article > p {
   margin: 2vw;
   margin-left: 15vw;
   margin-right: 15vw;
-  box-shadow: 1vw 1vw #91edac;
+  box-shadow: 1.5vw 1.5vw #91edac;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 #positions > p {
@@ -172,7 +218,9 @@ article > p {
   margin: 2vw;
   margin-left: 20vw;
   margin-right: 10vw;
-  box-shadow: 1vw 1vw #dbf0a8;
+  box-shadow: 1.5vw 1.5vw #dbf0a8;
+  animation: textFade 1s ease-in,
+	shadowGrow 3s ease-in-out;
 }
 
 #code {
@@ -181,6 +229,18 @@ article > p {
 
 #projinfo {
   margin: 3vw;
+  animation: textFade 4s ease-out,
+	shadowGrow 2s ease-in-out;
+}
+
+#projinfo > p > a {
+  color: #210002;
+  animation: textFade 4s ease-out,
+	shadowGrow 2s ease-in-out;
+}
+
+#projinfo > p > a:hover {
+  color: #F0789A;
 }
 
 #title {
@@ -190,10 +250,20 @@ article > p {
   padding-left: 2.5vw;
   margin: 1.5vw;
   width: 50vw;
-  box-shadow: 1vw 1vw #91edac;
+  box-shadow: 1.5vw 1.5vw #91edac;
+  animation: textFade 1s ease-in,
+	shadowGrow 2s ease-in-out;
 }
 
 #contact > h3{
   padding: 1vw;
   margin: 4vw 20vw;
+}
+
+#contact > h3 > a{
+  color: #FFFFEC;
+}
+
+#contact > h3 > a:hover {
+  color: #dbf0a8;
 }
