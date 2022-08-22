@@ -50,15 +50,14 @@ p, li {
 }
 
 .lime {
-  margin-bottom: 3vw;
-  text-align: center;
-  background-color: #80CF59;
-  padding: 2vw;
-  margin: 0 20vw;
-  color: #FFFFEC;
-  box-shadow: 1.5vw 1.5vw #dbf0a8;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
+	margin-bottom: 3vw;
+	text-align: center;
+	background-color: #4FBD88;
+	padding: 2vw;
+	margin: 0 20vw;
+	color: #FFFFEC;
+	box-shadow: 1.5vw 1.5vw #91edac;
+	animation: textFade 1s ease-in, shadowGrow 3s ease-in-out;
 }
 
 h1 {
@@ -133,16 +132,15 @@ nav > ul > li > a:hover {
 }
 
 #lang, #prog {
-  flex: 1;
-  padding-left: 2vw;
-  margin: 2vw 0;
-  font-size: calc(12px + 1.1vw);
-  color: #FFFFEC;
-  background-color: #4FBD88;
-  margin-bottom: 2.5vw;
-  box-shadow: 1.5vw 1.5vw #91edac;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
+	flex: 1;
+	padding-left: 2vw;
+	margin: 2vw 0;
+	font-size: calc(12px + 1.1vw);
+	color: #FFFFEC;
+	background-color: #4FBD88;
+	margin-bottom: 2.5vw;
+	box-shadow: 1.5vw 1.5vw #91edac;
+	animation: textFade 1s ease-in, shadowGrow 3s ease-in-out;
 }
 
 #lang {
@@ -160,30 +158,16 @@ article {
   color: #FFFFEC;
 }
 
-article.original {
-  background-color: #4FBD88;
-  margin: 3vw;
-  box-shadow: 1.5vw 1.5vw #91edac;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
+article {
+	background-color: #4FBD88;
+	margin: 3vw;
+	box-shadow: 1.5vw 1.5vw #91edac;
+	animation: textFade 1s ease-in, shadowGrow 3s ease-in-out;
 }
 
-article.original > a:hover {
+article > a:hover {
   color: #91edac;
   border: 3px solid #91edac;
-}
-
-article.alternate > a:hover {
-  color: #dbf0a8;
-  border: 3px solid #dbf0a8;
-}
-
-article.alternate {
-  background-color: #80CF59;
-  margin: 3vw;
-  box-shadow: 1.5vw 1.5vw #dbf0a8;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
 }
 
 article > a {
@@ -199,28 +183,27 @@ article > p {
   color: #FFFFEC;
 }
 
+#work {
+	margin: auto;
+	margin-bottom: 5%;
+	width: 80%;
+}
+
 #positions > h3 {
-  background-color: #4FBD88;
-  color: #FFFFEC;
-  padding: 1.3vw;
-  margin: 2vw;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  box-shadow: 1.5vw 1.5vw #91edac;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
+  margin-left: 1vw;
 }
 
 #positions > p {
-  background-color: #80CF59;
-  color: #FFFFEC;
-  padding: 1.3vw;
-  margin: 2vw;
-  margin-left: 20vw;
-  margin-right: 10vw;
-  box-shadow: 1.5vw 1.5vw #dbf0a8;
-  animation: textFade 1s ease-in,
-	shadowGrow 3s ease-in-out;
+  margin-left: 1.4vw;
+}
+
+#positions {
+	background-color: #4FBD88;
+	color: #FFFFEC;
+	margin-top: 3vw;
+	box-shadow: 1.5vw 1.5vw #91edac;
+	animation: textFade 1s ease-in, shadowGrow 3s ease-in-out;
+	padding: 1vw;
 }
 
 #code {
@@ -231,6 +214,10 @@ article > p {
   margin: 3vw;
   animation: textFade 4s ease-out,
 	shadowGrow 2s ease-in-out;
+}
+
+#center {
+	text-align: center;
 }
 
 #projinfo > p > a {
@@ -265,5 +252,5 @@ article > p {
 }
 
 #contact > h3 > a:hover {
-  color: #dbf0a8;
+	color: #91edac;
 }
